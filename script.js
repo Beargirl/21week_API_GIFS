@@ -5,9 +5,9 @@ function searchGifs()
 .then(response => response.json());
 .then(gifs => { 
     
-    document.getElementById ("search").src = gifs.search_url;
+ /*    document.getElementById ("search").src = ;
     document.getElementById ("gifs").innerText =  
-    )
+    ) */
 
 .catch(error => console.log(error));
 
